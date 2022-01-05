@@ -164,8 +164,14 @@ Git支持多种协议，包括`https`，但`ssh`协议速度最快。
 
 ​	创建分支 git branch 分支名
 
-​	切换分支 git checkout 分支名
+​	切换分支 git switch分支名
 
 ​	查看分支（带*号的表示当前分支） git branch
 
-​	
+#### 合并分支
+
+​	切换回主分支后合并  git merge 分支名（合并后就可以正常显示了）
+
+####  删除分支
+
+​	git branch -d 分支名
